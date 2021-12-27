@@ -34,3 +34,29 @@ footer div{
 .card{
     height: 600px;
 }
+
+.btn{
+    margin: 30px;
+}
+
+footer{
+    background-color: #3adbe6;
+    padding: 15px;
+}
+
+/* Para 480px */  
+@media only screen and (max-width: 600px) and (min-width: 341px) {  
+    header h3 {
+   font-size: medium;
+   } 
+   
+   footer p{
+       font-size:small;
+       font-family:sans-serif;            
+   }
+   footer {
+       padding: 15px;
+   }
+
+}  
+

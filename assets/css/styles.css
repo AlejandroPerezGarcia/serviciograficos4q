@@ -10,9 +10,10 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: left;
-     
-
 }
+
+
+
 .container{
     max-width:1100px;
     display: block;
@@ -25,11 +26,17 @@ header{
     margin: 30px;
 }
 
+footer{
+    background-color: #3adbe6;
+    padding: 15px;
+}
+
 footer div{
     height: 70px;
     margin-top: 20px;
     ;
 }
+
 .card img {
     height: 250px;
     width: auto;
@@ -37,3 +44,19 @@ footer div{
 .card{
     height: 550px;
 }
+
+/* Para 480px */  
+@media only screen and (max-width: 600px) and (min-width: 341px) {  
+     header h3 {
+    font-size: medium;
+    } 
+    
+    footer p{
+        font-size:small;
+        font-family:sans-serif;            
+    }
+    footer {
+        padding: 15px;
+    }
+
+}  
