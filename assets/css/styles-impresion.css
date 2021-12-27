@@ -21,9 +21,6 @@ header{
 }
 
 
-.btn{
-    margin: 30px;
-}
 
 footer div{
     height: 70px;
@@ -35,5 +32,5 @@ footer div{
     width: auto;
 }
 .card{
-    height: 550px;
+    height: 600px;
 }
